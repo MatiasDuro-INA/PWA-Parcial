@@ -26,7 +26,7 @@ A continuación se detallan las tareas a realizar, en orden de prioridad:
 
 ```jsx
 <Pokemon />
-
+```
 ### 3️⃣ Implementar la logica con Context API
 
 - La lógica de obtención y manejo de datos no debe estar directamente en los componentes.
