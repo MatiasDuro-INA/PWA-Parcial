@@ -14,6 +14,7 @@ A continuación se detallan las tareas a realizar, en orden de prioridad:
 - Debes en dicho componente, al momento de renderizarse, llamar a una funcion que utilice la api `https://pokeapi.co/api/v2/pokemon/{id}` y decir que recorra el campo id 150 veces, y guardar cada resultado del pokemon, en un estado de **AllPokemons**, para luego utilizar ese **AllPokemons** para renderizar el componente `Pokemon`
 
 
+
 ### 2️⃣ Crear el componente `Pokemon`
 
 - Crear un componente llamado `Pokemon`.
@@ -25,3 +26,8 @@ A continuación se detallan las tareas a realizar, en orden de prioridad:
 
 ```jsx
 <Pokemon />
+
+### 3️⃣ Implementar la logica con Context API
+
+- La lógica de obtención y manejo de datos no debe estar directamente en los componentes.
+- Utilizar React Context API para centralizar y compartir el estado y la lógica de la aplicación entre los componentes.
