@@ -1,9 +1,13 @@
+import { PokemonList } from './components/PokemonList'
+import { Pokemon } from './components/Pokemon'
+
 
 function App() {
 
   return (
     <>
-      <h1>probando</h1>
+      {/* <h1>Prueba</h1> */}
+      <PokemonList/>
     </>
   )
 }
